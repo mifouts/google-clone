@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { Apps } from '@material-ui/icons';
+
+
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
         <div className="header__headerRight">
             <Link to ='/gmail'>Gmail</Link>
             <Link to ='/images'>Images</Link>
-            <Apps />
+            
         </div>
       </div>
       <div className="home__body"></div>
