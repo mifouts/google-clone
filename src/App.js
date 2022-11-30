@@ -8,11 +8,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <h1>Let's build the google clone</h1>
-
-      {/* home page*/}
-      <Home />
-      {/* search results page*/}
+        <Switch>
+          <Route path="/search">
+            <h1>Search Page</h1>
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );
