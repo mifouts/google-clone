@@ -16,7 +16,6 @@ function Home() {
         <div className="header__headerRight">
             <Link to ='/gmail'>Gmail</Link>
             <Link to ='/images'>Images</Link>
-            
         </div>
       </div>
       <div className="home__body"></div>
