@@ -22,7 +22,9 @@ function Home() {
             <Avatar />
         </div>
       </div>
-      <div className="home__body"></div>
+      <div className="home__body">
+        <img src="https://cdn.mos.cms.futurecdn.net/rjqJEKv6P9Yjy9d3KMGvp8-970-80.jpg.webp" alt="" />
+      </div>
       </div>
   )
 }
