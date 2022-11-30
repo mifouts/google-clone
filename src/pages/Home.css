@@ -28,3 +28,7 @@
     min-width: 13vw;
     justify-content: space-between;
 }
+
+.home__headerRight > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
