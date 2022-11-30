@@ -21,3 +21,10 @@
 .home__header a:hover {
     text-decoration: underline;
 }
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
