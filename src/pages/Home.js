@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className='home'>
-      <h1>This is HOMEPAGE</h1>
 
       <div className="home__header">
         <div className="header__headerLeft">
