@@ -6,15 +6,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Router>
         <Routes>
           <Route path="/search" />
             <h1>Search Page</h1>
           <Route path="/" element={<Home />} />
         </Routes>
-      </Router>
     </div>
+    </Router>
   );
 }
 
