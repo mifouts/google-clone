@@ -10,7 +10,6 @@ function App() {
     <div className="App">
         <Routes>
           <Route path="/search" />
-            <h1>Search Page</h1>
           <Route path="/" element={<Home />} />
         </Routes>
     </div>
