@@ -24,7 +24,7 @@ function Search() {
         <MicIcon className="MicIcon" />
       </div>
       <div className="search__buttons">
-        <Button onClick={search} variant="outlined">
+        <Button type="submit" onClick={search} variant="outlined">
           Google Search
         </Button>
         <Button variant="outlined">I'm Feeling Lucky</Button>
