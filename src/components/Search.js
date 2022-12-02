@@ -1,6 +1,7 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
+import "./Search.css";
 
 function Search() {
   return (
