@@ -3,13 +3,17 @@ import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import "./Search.css";
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function Search() {
   const [input, setInput] = useState("");
+  const navigate = useNavigate();
 
   const search = (e) => {
     e.preventDefault();
-    console.log("you hit search button");
+    console.log("you hit search button", input);
+
+    navigate.push("/search");
   };
 
   return (
