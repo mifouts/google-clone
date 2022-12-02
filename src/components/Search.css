@@ -51,6 +51,10 @@
     color: #222;
 }
 
+.search__buttonsHidden {
+    display: none !important;
+}
+
 .MicIcon:hover {
     cursor: pointer;
 }
