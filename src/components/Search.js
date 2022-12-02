@@ -9,6 +9,7 @@ function Search() {
 
   const search = (e) => {
     e.preventDefault();
+    console.log("you hit search button");
   };
 
   return (
