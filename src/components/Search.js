@@ -13,7 +13,7 @@ function Search() {
     e.preventDefault();
     console.log("you hit search button", input);
 
-    navigate.push("/search");
+    navigate("/search");
   };
 
   return (
