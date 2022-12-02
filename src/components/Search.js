@@ -20,7 +20,7 @@ function Search() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <MicIcon />
+        <MicIcon className="MicIcon" onClick={search} />
       </div>
       <div className="search__buttons">
         <Button onClick={search} variant="outlined">
