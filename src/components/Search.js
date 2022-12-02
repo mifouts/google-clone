@@ -14,13 +14,13 @@ function Search() {
   return (
     <div className="search">
       <div className="search__input">
-        <SearchIcon className="search__inputIcon" />
+        <SearchIcon onClick={search} className="search__inputIcon" />
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <MicIcon className="MicIcon" onClick={search} />
+        <MicIcon className="MicIcon" />
       </div>
       <div className="search__buttons">
         <Button onClick={search} variant="outlined">
