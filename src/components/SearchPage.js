@@ -4,6 +4,7 @@ import "./SearchPage.css";
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
+
   return (
     <div className="searchPage">
       <div className="searchPage__header">
