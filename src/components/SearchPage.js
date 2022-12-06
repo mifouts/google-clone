@@ -4,6 +4,7 @@ import useGoogleSearch from "../useGoogleSearch";
 import "./SearchPage.css";
 import response from "../response";
 import { Link } from "react-router-dom";
+import Search from "./Search";
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
@@ -22,6 +23,10 @@ function SearchPage() {
             alt=""
           />
         </Link>
+
+        <div className="searchPage__headerBody">
+          <Search hideButtons />
+        </div>
       </div>
       <div className="searchPage__results"></div>
     </div>
