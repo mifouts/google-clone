@@ -14,9 +14,10 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
-  // const { data } = useGoogleSearch(term);
+  const { data } = useGoogleSearch(term);
 
-  const data = response;
+  // MOCK API CALL
+  // const data = response;
 
   console.log(data);
   return (
@@ -70,7 +71,7 @@ function SearchPage() {
           </div>
         </div>
       </div>
-      {true && (
+      {term && (
         <div className="searchPage__results">
           <p className="searchPage__resultCount">
             About {data?.searchInformation.formattedTotalResults} results (
