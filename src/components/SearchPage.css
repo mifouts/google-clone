@@ -48,3 +48,7 @@
     align-items: center;
     margin-right: 20px;
 }
+
+.searchPage__option a {
+    margin-left: 5px;
+}
